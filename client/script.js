@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server to client
 
-  const response = await fetch('https://code-x.onrender.com', {
+  const response = await fetch('https://code-x.onrender.com/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
 })
 
   clearInterval(loadInterval);
-  messegeDiv.innerHTML = '';
+  messegeDiv.innerHTML = ' ';
 
   if(response.ok){
     const data = await response.json();
