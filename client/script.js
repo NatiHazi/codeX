@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
 
   loader(messegeDiv);
 
-  //fetch data from server
+  //fetch data from server to client
 
   const response = await fetch('https://code-x.onrender.com', {
     method: 'POST',
