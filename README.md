@@ -1,3 +1,3 @@
 # ChatGPT
 
-ChatGPT for any code you want!
+ChatGPT AI App in JavaScript | OpenAI, Machine Learning
